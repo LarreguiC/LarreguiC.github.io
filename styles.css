@@ -52,9 +52,9 @@ h1{
 }
 
 .video-container .video{
-  height:250;
-  width: 350;
-  margin:2rem;
+  height:350;
+  width: 550;
+  margin:1rem;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
   overflow: hidden;
   border-radius: 1rem
