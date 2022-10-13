@@ -44,3 +44,20 @@ h1{
     background-position: 0 50%;
   }
 }
+
+.video-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-container .video{
+  height:15rem;
+  width: 25rem;
+  margin:2rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+  overflow: hidden;
+  border-radius: 1rem
+
+
+}
