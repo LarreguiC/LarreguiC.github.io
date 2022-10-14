@@ -45,22 +45,39 @@ h1{
   }
 }
 
-.video-container{
+.container{
+  position: relative;
+  min-height: 100vh;
+  background: #9796f0;
+}
+
+.container h1{
+  color: #fff;
+  text align: center;
+  padding:15px;
+  font-size: 40px;
+  font-weight: normal;
+  
+}
+
+.container .video-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 15px;
+  padding:10px;
 }
 
-.video-container .video{
+.container .video-container .video{
   height: 350
   width: 550
   margin: 5rem;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.7);
   overflow: hidden;
   border-radius: 1rem
 }
 
-.video-container .video video{
+.containter .video-container .video video{
   height:100%;
   width:100%;
   object-fit: cover;
